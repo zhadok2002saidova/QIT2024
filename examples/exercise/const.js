@@ -1,16 +1,20 @@
 let order = ""
-
+let total = "0"
+ 
 var burger = prompt("burger :"  + "\n" + "a)" + "chicken"  + "\n" + "b)"+ "beef" + "\n" + "c)" + "meatless" )
 
 switch(burger){
   case "a":
     order += " \n chicken";
+    total += 2500
     break;
   case "b":
     order += " \n beef";
+    total += 3500
     break;
   case "c":
     order += " \n meatless";
+    total += 2000
     break;
 }
 
@@ -55,5 +59,7 @@ switch (sauce) {
     order += " \n bbq";
     break;
 }
+
+alert(order + '\n' + 'total')
 
 alert(order)  
