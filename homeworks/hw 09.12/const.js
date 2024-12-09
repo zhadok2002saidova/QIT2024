@@ -6,19 +6,19 @@ const library = {
       title: "Бақытсыз Жамал",
       author: "Міржақып Дулатұлы",
       year: 1910,
-      isAvailable: true,
+     
     },
     {
       title: "Махаббат, қызық мол жылдар ",
       author: "Әзілхан Нұршайықов",
       year: 1970,
-      isAvailable: false,
+      
     },
     {
       title: "Қамар сұлу",
       author: "Сұлтанмахмұт Торайғыров",
       year: 1914,
-      isAvailable: true,
+     
     },
   ],
 };
@@ -34,14 +34,14 @@ function listAvailableBooks() {
 }
 
 
-function addBook(title, author, year, isAvailable) {
-  library.books.push({ title, author, year, isAvailable });
+function addBook(title, author, year,) {
+  library.books.push({ title, author, year,  });
 }
 
 
 function toggleBookAvailability(title) {
   const book = library.books.find((b) => b.title == title);
-  if (book) book.isAvailable = !book.isAvailable;
+  if (book) book.isAvailable;
 }
 
 changeLibraryName("Жаңа Кітапхана");
