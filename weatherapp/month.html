@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз на месяц</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div>
+       <h1 class="logo" id="logo">SkyMood</h1>
+    </div>
+    <nav class="nav1" id="nav1">
+        <ul>
+            <li><a href="index.html">Погода на сегодня</a></li>
+            <li><a href="tomorrow.html">Погода на завтра</a></li>
+            <li><a href="week.html">Прогноз на неделю</a></li>
+            <li><a href="month.html">Прогноз на месяц</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="search-box" id="search-box">
+    <input type="text" class="search" id="search" placeholder="Введите город">
+    <button class="submit" id="submit">Поиск</button>
+</div>
+
+<section class="container" id="container">
+     <div class="weather-info">
+        <h2 id="cityName">Город</h2>
+        <p id="temperature">Температура:</p>
+        <p id="description">Описание:</p>
+        <p id="humidity">Влажность:</p>
+        <p id="windSpeed">Скорость ветра:</p>
+    </div> 
+
+    <div class="weather-info" id="weather-first-week">
+        <h2>Первая неделя</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/4814/4814489.png" alt="">
+        <h2>Солнечно</h2>
+        <p>Средняя температура: 22°C</p>
+        <p>Ветер: 10 км/ч</p>
+        <p>Влажность: 55%</p>
+        <p>Давление: 1013 hPa</p>
+    </div>
+    
+    <div class="weather-info" id="weather-second-week">
+        <h2>Вторая неделя</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/4088/4088988.png" alt="">
+        <h2>Дожди</h2>
+        <p>Средняя температура: 19°C, дожди</p>
+        <p>Ветер: 12 км/ч</p>
+        <p>Влажность: 70%</p>
+        <p>Давление: 1010 hPa</p>
+    </div>
+
+    <div class="weather-info" id="weather-third-week">
+        <h2>Третья неделя</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/4814/4814268.png" alt="">
+        <h2>Солнечно</h2>
+        <p>Средняя температура: 24°C, солнечно</p>
+        <p>Ветер: 9 км/ч</p>
+        <p>Влажность: 45%</p>
+        <p>Давление: 1016 hPa</p>
+    </div>
+
+    <div class="weather-info" id="weather-fourth-week">
+        <h2>Четвертая неделя</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/1779/1779765.png" alt="">
+        <h2>Пасмурная погода</h2>
+        <p>Средняя температура: 20°C, пасмурно</p>
+        <p>Ветер: 11 км/ч</p>
+        <p>Влажность: 60%</p>
+        <p>Давление: 1014 hPa</p>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 Прогноз погоды. Все права защищены.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

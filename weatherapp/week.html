@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз на неделю</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div>
+       <h1 class="logo" id="logo">SkyMood</h1>
+    </div>
+    <nav class="nav1" id="nav1">
+        <ul>
+            <li><a href="index.html">Погода на сегодня</a></li>
+            <li><a href="tomorrow.html">Погода на завтра</a></li>
+            <li><a href="week.html">Прогноз на неделю</a></li>
+            <li><a href="month.html">Прогноз на месяц</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="search-box" id="search-box">
+    <input type="text" class="search" id="search" placeholder="Введите город">
+    <button class="submit" id="submit">Поиск</button>
+</div>
+
+<section class="container" id="container">
+     <div class="weather-info">
+        <h2 id="cityName">Город</h2>
+        <p id="temperature">Температура:</p>
+        <p id="description">Описание:</p>
+        <p id="humidity">Влажность:</p>
+        <p id="windSpeed">Скорость ветра:</p>
+   </div>
+   
+    <div class="weather-info" id="weather-monday">
+        <h2>Понедельник</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/4624/4624334.png" alt="">
+        <p>23°C, солнечно</p>
+        <p>Ветер: 12 км/ч</p>
+        <p>Влажность: 50%</p>
+        <p>Давление: 1015 hPa</p>
+    </div>
+
+    <div class="weather-info" id="weather-tuesday">
+        <h2>Вторник</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/4814/4814489.png" alt="">
+        <p>21°C, облачно</p>
+        <p>Ветер: 10 км/ч</p>
+        <p>Влажность: 55%</p>
+        <p>Давление: 1012 hPa</p>
+    </div>
+
+    <div class="weather-info" id="weather-wednesday">
+        <h2>Среда</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/8722/8722103.png" alt="">
+        <p>18°C, дождь</p>
+        <p>Ветер: 8 км/ч</p>
+        <p>Влажность: 65%</p>
+        <p>Давление: 1010 hPa</p>
+    </div>
+
+    <div class="weather-info" id="weather-thursday">
+        <h2>Четверг</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/4624/4624334.png" alt="">
+        <p>25°C, солнечно</p>
+        <p>Ветер: 15 км/ч</p>
+        <p>Влажность: 40%</p>
+        <p>Давление: 1018 hPa</p>
+    </div>
+
+    <div class="weather-info" id="weather-friday">
+        <h2>Пятница</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/7774/7774417.png" alt="">
+        <p>20°C, переменная облачность</p>
+        <p>Ветер: 10 км/ч</p>
+        <p>Влажность: 60%</p>
+        <p>Давление: 1013 hPa</p>
+    </div>
+
+    <div class="weather-info" id="weather-saturday">
+        <h2>Суббота</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/7774/7774417.png" alt="">
+        <p>22°C, переменная облачность</p>
+        <p>Ветер: 11 км/ч</p>
+        <p>Влажность: 55%</p>
+        <p>Давление: 1014 hPa</p>
+    </div>
+
+    <div class="weather-info" id="weather-sunday">
+        <h2>Воскресенье</h2>
+        <img src="https://cdn-icons-png.flaticon.com/128/4088/4088988.png" alt="">
+        <p>18°C, ливень</p>
+        <p>Ветер: 15 км/ч</p>
+        <p>Влажность: 100%</p>
+        <p>Давление: 1015 hPa</p>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 Прогноз погоды. Все права защищены.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
